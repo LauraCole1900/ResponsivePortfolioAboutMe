@@ -10,6 +10,7 @@ body {
 
 h1 {
   font-family: 'Fredericka the Great', cursive;
+  padding-top: 5px;
 }
 
 p {
@@ -29,4 +30,9 @@ a {
 
 .biotext {
   float: right;
+}
+
+.portpics {
+  padding: 5px 0;
+  font-size: 12px;
 }
