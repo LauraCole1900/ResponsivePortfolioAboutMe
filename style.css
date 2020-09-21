@@ -21,18 +21,14 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
-.mypic {
+/* .mypic {
   width: 15em;
-  height: 20em;
-  float: left;
-  z-index: 2
-}
-
-.biotext {
-  float: right;
+  height: 20em; */
 }
 
 .portpics {
+  max-width: 100%;
+  height: auto;
   padding: 5px 0;
   font-size: 12px;
 }
