@@ -28,6 +28,13 @@ p a {
   font-size: 12px;
 }
 
-.carouselText {
+
+
+.carousel-caption {
+  left: 5%;
+  text-align: left;
+  right: auto;
+  bottom: 0;
   font-size: 12px;
+  color:#c0c0c0;
 }
