@@ -42,71 +42,64 @@
   </header>
 
   <!-- Header -->
-  <div class="container rounded">
+  <main class="container rounded">
     <div class="row">
       <div class="col-sm-1"></div>
-      <div class="col-sm-10">
+      <div class="col-sm-10 headLine">
         <h1>Portfolio</h1>
       </div>
     </div>
+
     <!-- Content -->
-    <!-- Image 1 -->
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/pawnee_buttes_sunrise_1.jpg" class="img-fluid w-100" alt="Sunrise at Pawnee Buttes">
-        <p>Sunrise at Pawnee Buttes, Pawnee Buttes National Grasslands - Copyright &#169; 2020 Laura E. Cole</p>
+    <div class="row projectPics">
+      <!-- Taco Party pic -->
+      <div class="col-sm-4">
+        <img src="assets/images/taco-party-homepage-square.png" alt="screencap of Taco Party site homepage"
+          class="screencap img-fluid" />
+      </div>
+
+      <!-- Workday Scheduler pic -->
+      <div class="col-sm-4">
+        <img src="assets/images/scheduled-events-screencap.png" alt="screencap of Workday Scheduler site"
+          class="screencap img-fluid" />
+      </div>
+
+      <!-- Weather Dashboard pic -->
+      <div class="col-sm-4">
+        <img src="assets/images/dashboard-searched.png" alt="screencap of Weather Dashboard site"
+          class="screencap img-fluid" />
       </div>
     </div>
-    <!-- Image 2 -->
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/aspen.jpg" class="img-fluid w-100" alt="Aspen on the Bridal Veil Falls trail, RMNP">
-        <p>Aspen trees on the Bridal Veil Falls trail, RMNP - Copyright &#169; 2020 Laura E. Cole</p>
+      <!-- Taco Party links & description -->
+      <div class="col-sm-4">
+        <div class="webBtn"><button id="tacoParty" class="siteBtn">Taco Party</button></div>
+        <div class="webBtn"><button id="tacoPartyRepo" class="siteBtn">Taco Party GitHub repo</button></div>
+        <p class="desc">Taco Party was built through the collaborative efforts of six students, including me. It uses the Materialize framework for layout and mobile-responsiveness, JavaScript/jQuery, and two third-party APIs to provide a resource for users to plan their taco party. Users can generate random taco- or salsa-based recipes, visit the "Taco" and "Salsa" pages to view all available recipes, and visit the "Beverages" pages to browse recipes for adult mixed drinks.</p>
+      </div>
+      <!-- Workday Scheduler links & description -->
+      <div class="col-sm-4">
+        <div class="webBtn"><button id="planner" class="siteBtn">Workday Scheduler</button></div>
+        <div class="webBtn"><button id="plannerRepo" class="siteBtn">Workday Scheduler GitHub repo</button></div>
+        <p class="desc">The Workday Scheduler uses JavaScript to dynamically create and populate a single-day workday planner. When the user clicks on a time-block, they are then presented with an input field into which they can type their event. The information is then stored in local storage, so the information can be repopulated to the page on reload.The date is provided by the Day.js library.</p>
+      </div>
+      <!-- Weather Dashboard links & description -->
+      <div class="col-sm-4">
+        <div class="webBtn"><button id="weather" class="siteBtn">Weather Dashboard</button></div>
+        <div class="webBtn"><button id="weatherRepo" class="siteBtn">Weather Dashboard GitHub repo</button></div>
+        <p class="desc">The Weather Dashboard uses jQuery and the OpenWeather API to provide weather information. The user types the city about which they're wanting weather information into the "search" function, and the dashboard then provides current weather conditions and a five-day forecast for that city. While subsequent searches will replace the five-day forecast, the current conditions will still be visible at the bottom of the page, and all searched cities appear in the "history" section for ease of repeating searches.</p>
       </div>
     </div>
-    <!-- Image 3 -->
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/storm_mtn_columbine_1.jpg" class="img-fluid w-100" alt="Columbine on Storm Mountain">
-        <p>Columbine on Storm Mountain - Copyright &#169; 2020 Laura E. Cole</p>
-      </div>
-    </div>
-    <!-- Image 4 -->
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/dream_lake_venus.jpg" class="img-fluid w-100" alt="Venus and her reflection, Dream Lake, RMNP">
-        <p>Venus and her reflection, Dream Lake, RMNP - Copyright &#169; 2020 Laura E. Cole</p>
-      </div>
-    </div>
-    <!-- Image 5 -->
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/skyscraper_reservoir.jpg" class="img-fluid w-100"
-          alt="Skyscraper Reservoir, Indian Peaks Wilderness, Roosevelt National Forest">
-        <p>Skyscraper Reservoir, Indian Peaks Wilderness, Roosevelt National Forest - Copyright &#169; 2020 Laura E. Cole</p>
-      </div>
-    </div>
-    <!-- Image 6 -->
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 portpics">
-        <img src="assets/images/lake_isabelle_sunrise_2.jpg" class="img-fluid w-100"
-          alt="Sunrise at Lake Isabelle, Indian Peaks Wilderness, Roosevelt National Forest">
-        <p>Sunrise at Lake Isabelle, Indian Peaks Wilderness, Roosevelt National Forest - Copyright &#169; 2020 Laura E. Cole</p>
-      </div>
-    </div>
-  </div>
+
+  </main>
 
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script src="script.js" type="text/javascript"></script>
 
 </body>
 
