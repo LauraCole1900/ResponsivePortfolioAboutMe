@@ -44,6 +44,16 @@ a.portLinks:hover {
   height: auto;
 }
 
+.git {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.github {
+  width: 4em;
+  border-radius: 50%;
+}
+
 .webBtn {
   text-align: center;
   margin-top: 1em;
