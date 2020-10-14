@@ -54,6 +54,14 @@ a.portLinks:hover {
   border-radius: 50%;
 }
 
+.attribution {
+  font-size: 0.5em;
+}
+
+.resume {
+  width: 4em;
+}
+
 .webBtn {
   text-align: center;
   margin-top: 1em;
