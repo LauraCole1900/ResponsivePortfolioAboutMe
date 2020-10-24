@@ -4,9 +4,9 @@ This is a website about me, including biographical information, a portfolio page
 
 #### Screencaps
 
-![AboutMe screencap](/assets/about-me-page-screencap.png)
-![Portfolio screencap](/assets/portfolio-page-screencap.png)
-![Contact screencap](/assets/contact-page-screencap.png)
+![AboutMe screencap](./assets/about-me-page-screencap.png)
+![Portfolio screencap](./assets/portfolio-page-screencap.png)
+![Contact screencap](./assets/contact-page-screencap.png)
 
 #### Deployed Site
 
