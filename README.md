@@ -55,7 +55,7 @@ This project is intended to be used as a my first, basic portfolio site.
 
 ## Technologies Used
 
-HTML, CSS, Bootstrap
+![HTML5](https://img.shields.io/badge/built%20with-HTML5-f06529) ![CSS3](https://img.shields.io/badge/built%20with-CSS3-2965f1) ![Bootstrap](https://img.shields.io/badge/built%20with-Bootstrap-563d7c)
 
 ## Tests
 
